@@ -2,12 +2,14 @@ sudo xbps-install tree picom i3 neovim mlocate xtools nodejs flatpak yarn xfce4-
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/void-linux/void-packages
 cd void-packages
+./xbps-src -j2 binary-bootstrap
 ./xbps-src -j2 pkg google-chrome
 xi google-chrome
 ./xbps-src -j2 pkg discord
 xi discord
 ./xbps-src -j2 zoom
 xi zoom
+cd /home/martin
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 cd /home/martin
