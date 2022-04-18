@@ -26,7 +26,7 @@ cd /home/martin
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-flatpak install com.getpostman.Postman.flatpakref
+flatpak install flathub com.getpostman.Postman.flatpakref
 cd void-packages
 ./xbps-src -j2 pkg torbrowser-launcher
 xi torbrowser-launcher
