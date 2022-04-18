@@ -1,4 +1,4 @@
-sudo xbps-install picom i3 neovim mlocate xtools flatpak yarn xfce4-screenshooter nano brightnessctl firefox rofi moc acpi zsh lm_sensors python3 python3-pip wget curl bleachbit mtpaint virtualbox-ose virtualbox-ose-dkms htop neofetch nnn pcmanfm dkms base-devel git vscode fzf alacritty
+sudo xbps-install picom i3 neovim mlocate xtools nodejs flatpak yarn xfce4-screenshooter nano brightnessctl firefox rofi moc acpi zsh lm_sensors python3 python3-pip wget curl bleachbit mtpaint virtualbox-ose virtualbox-ose-dkms htop neofetch nnn pcmanfm dkms base-devel git vscode fzf alacritty
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/void-linux/void-packages
 cd void-packages
@@ -30,4 +30,8 @@ flatpak install flathub com.getpostman.Postman.flatpakref
 cd void-packages
 ./xbps-src -j2 pkg torbrowser-launcher
 xi torbrowser-launcher
+
+sudo npm i -g sass
+sudo npm i -g nodemon
+sudo npm i -g typescript
 echo 'FINALLY!'
