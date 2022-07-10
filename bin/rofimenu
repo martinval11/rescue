@@ -1,0 +1,1 @@
+rofi -show drun -theme DarkBlue -theme-str '#window {color: #fff; width: 40%;} *{background:#000;border-color:#666;}' -font 'Cascadia Mono PL 11' -show-icons -sidebar-mode -hover-select
